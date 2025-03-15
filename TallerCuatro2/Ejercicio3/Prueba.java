@@ -8,13 +8,13 @@ public class Prueba {
         System.out.println("Suma de 8 y 5: " + suma); 
 
         double resta = utilidades.restar(23, 14);
-        System.out.println("Resta de 10 y 4: " + resta);
+        System.out.println("Resta de 23 y 14: " + resta);
 
         double multiplicacion = utilidades.multiplicar(22, 2);
-        System.out.println("Multiplicacion de 7 y 2: " + multiplicacion); 
+        System.out.println("Multiplicacion de 22 y 2: " + multiplicacion); 
 
-        double division = utilidades.dividir(45, 5);
-        System.out.println("Division de 20 y 4: " + division);
+        double division = utilidades.dividir(96, 3);
+        System.out.println("Division de 96 y 3: " + division);
 
         double divisionPorCero = utilidades.dividir(3, 0);
         System.out.println("Division de 10 y 0: " + divisionPorCero); 
