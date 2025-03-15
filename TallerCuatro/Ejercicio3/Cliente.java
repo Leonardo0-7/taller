@@ -6,7 +6,7 @@ public class Cliente {
 
     // Constructor por defecto
     public Cliente() {
-        this.nombre = "NN";
+        this.nombre = "No sé sabe";
     }
 
     // Constructor parametrizado

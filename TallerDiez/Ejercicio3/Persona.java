@@ -12,7 +12,7 @@ public class Persona implements Hablador {
 
     // Constructor
     public Persona() {
-        System.out.println("Se ha creado una instancia de Persona");
+        System.out.println("Se ha creado una instancia de tipo Persona");
     }
 
     public static void main(String[] args) {

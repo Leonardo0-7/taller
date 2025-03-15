@@ -24,7 +24,7 @@ public class CuentaBancaria {
         if (saldo >= 0) { 
             this.saldo = saldo;
         } else {
-            System.out.println("El saldo no puede ser menos que cero.");
+            System.out.println("El saldo no puede ser menos que cero");
         }
     }
 

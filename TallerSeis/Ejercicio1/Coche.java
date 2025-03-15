@@ -15,7 +15,7 @@ public class Coche {
 
     
     public static void mostrarContadorCoches() {
-        System.out.println("Número de coches creados: " + contadorCoches);
+        System.out.println("Numero de coches creados: " + contadorCoches);
     }
 
     

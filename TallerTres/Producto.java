@@ -22,7 +22,7 @@ class Producto {
 // Clase de prueba dentro del mismo paquete
 class TestProducto {
     public static void main(String[] args) {
-        Producto p = new Producto("Laptop", 1200.50, 10);
+        Producto p = new Producto("Computadora", 4000000.00, 50 );
         p.mostrarInfo(); // Acceso permitido dentro del mismo paquete
     }
 }

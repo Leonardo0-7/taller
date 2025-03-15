@@ -6,7 +6,7 @@ public class Prueba{
         Persona persona = new Persona();
         persona.presentarse();
 
-        
+
         Persona estudiante = new Estudiante();
         estudiante.presentarse();
 

@@ -21,7 +21,7 @@ public class Banco {
     // Método set para saldo con validación
     public void setSaldo(double saldo) {
         if (saldo < 0) {
-            throw new IllegalArgumentException("El saldo no puede ser menor que cero."); 
+            throw new IllegalArgumentException("El sadlo no puede ser menor que cero."); 
         }
         this.saldo = saldo; 
     }

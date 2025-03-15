@@ -2,7 +2,7 @@ package TallerSiete.Ejercicio3.B;
 
 abstract class ClaseAbstracta {
     public void metodoConcreto() {
-        System.out.println("Método concreto de la clase abstracta");
+        System.out.println("Metodo concreto de la clase abstracta");
     }
 
     public abstract void metodoAbstracto();
@@ -11,7 +11,7 @@ abstract class ClaseAbstracta {
 class ClaseDerivada extends ClaseAbstracta {
     @Override
     public void metodoConcreto() {
-        System.out.println("Método sobreescrito en la clase derivada");
+        System.out.println("Metodo sobreescrito en la clase derivada");
     }
 
     @Override

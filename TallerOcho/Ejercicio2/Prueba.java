@@ -4,10 +4,10 @@ package TallerOcho.Ejercicio2;
 public class Prueba {
     public static void main(String[] args) {
         
-        Persona persona1 = new Persona("Andres", 34);
+        Persona persona1 = new Persona("Fabian", 42);
         persona1.mostrarInformacion();
 
-        Estudiante estudiante1 = new Estudiante("Moises", 17, "M22376");
+        Estudiante estudiante1 = new Estudiante("Matias", 54, "POE434");
         estudiante1.mostrarInformacion();
     }
 }

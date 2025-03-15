@@ -6,13 +6,13 @@ public class PruebaEstudiante {
         Estudiante estudiante1 = new Estudiante();
         System.out.println(estudiante1); 
         
-        Estudiante estudiante2 = new Estudiante("Camilo", 17, 3.7);
+        Estudiante estudiante2 = new Estudiante("Doku", 21, 3.0);
         System.out.println(estudiante2); // Mostrar detalles del estudiante
 
         
-        estudiante2.setNombre("Valentina");
-        estudiante2.setEdad(26);
-        estudiante2.setNotaPromedio(3.9);
+        estudiante2.setNombre("Mikaela");
+        estudiante2.setEdad(18);
+        estudiante2.setNotaPromedio(4.1);
 
         
         System.out.println(estudiante2);

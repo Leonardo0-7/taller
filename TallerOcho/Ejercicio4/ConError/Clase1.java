@@ -1,20 +1,20 @@
 package TallerOcho.Ejercicio4.ConError;
 
-class ClaseA {
+class Clase1 {
     public void metodoA() {
-        System.out.println("Método de ClaseA");
+        System.out.println("Método de Clase1");
     }
 }
 
-class ClaseB {
+class Clase2 {
     public void metodoB() {
-        System.out.println("Método de ClaseB");
+        System.out.println("Método de Clase2");
     }
 }
 
 
-class ClaseC extends ClaseA, ClaseB {
+class Clase3 extends Clase1, Clase2 {
     public void metodoC() {
-        System.out.println("Método de ClaseC");
+        System.out.println("Método de Clase3");
     }
 }

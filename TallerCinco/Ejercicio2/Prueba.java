@@ -1,7 +1,7 @@
 
 public class Prueba {
     public static void main(String[] args) {
-        Moto miMoto = new Moto("Touring", "Bajac", 400);
+        Moto miMoto = new Moto("Sport", "Ducati", 400);
         miMoto.mostrarInformacion();
 
         // Intentando acceder a datos protegidos desde una clase no relacionada

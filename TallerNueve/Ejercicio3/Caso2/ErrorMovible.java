@@ -5,6 +5,6 @@ class Casa implements Movible {
     @Override
     public void moverse() {
         //una casa no se mueve
-        System.out.println("Las casas no se mueven.");
+        System.out.println("Las casas no se mueven");
     }
 }

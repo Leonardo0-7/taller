@@ -3,7 +3,7 @@ package TallerCuatro2.Ejercicio2;
 
 public class Prueba {
     public static void main(String[] args) {
-        CuentaBancaria miCuenta = new CuentaBancaria("123456789", 1000, "Ahorros");
+        CuentaBancaria miCuenta = new CuentaBancaria("54549899868", 525487, "Corriente");
 
         // Acceder directamente a la propiedad privada causara un error
         System.out.println("Número de Cuenta : " + miCuenta.numeroCuenta);

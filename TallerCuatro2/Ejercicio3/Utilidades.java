@@ -18,7 +18,7 @@ public class Utilidades {
         if (b != 0) {
             return a / b;
         } else {
-            System.out.println("Error: Division por cero.");
+            System.out.println("Error, no se puede dividir entre 0");
             return 0;
         }
     }

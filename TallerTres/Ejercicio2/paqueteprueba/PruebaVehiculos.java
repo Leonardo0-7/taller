@@ -5,10 +5,10 @@ import TallerTres.Ejercicio2.vehiculos.*;
 public class PruebaVehiculos {
     public static void main(String[] args) {
         
-        Vehiculo v = new Vehiculo("Automóvil"); // Error de compilacion: Vehiculo tiene acceso de paquete
+        Vehiculo v = new Vehiculo("Carro"); // Error de compilacion, Carro tiene acceso de paquete
         v.mostrarTipo(); // Error de compilación
 
-        Moto m = new Moto("Motocicleta", 0); // Error de compilacion: Moto tiene acceso de paquete
+        Moto m = new Moto("Moto", 0); // Error de compilacion: Moto tiene acceso de paquete
         m.mostrarTipo(); // Error de compilacion
     
     }

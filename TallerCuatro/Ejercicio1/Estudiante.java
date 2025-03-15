@@ -7,7 +7,7 @@ public class Estudiante {
 
     // Constructor por defecto
     public Estudiante() {
-        this.nombre = "NN"; 
+        this.nombre = "Desconocido"; 
         this.edad = 0;               
         this.notaPromedio = 0.0;     
     }
@@ -26,7 +26,7 @@ public class Estudiante {
 
     public void setNombre(String nombre) {
         if (nombre == null || nombre.isEmpty()) {
-            throw new IllegalArgumentException("El nombre no puede estar vacío.");
+            throw new IllegalArgumentException("El nombre no puede estar vacío");
         }
         this.nombre = nombre; 
     }

@@ -2,10 +2,10 @@ package TallerOcho.Ejercicio2de2;
 
 public class Prueba {
     public static void main(String[] args) {
-        Estudiante estudiante1 = new Estudiante("Carlos", 34, "C22768");
+        Estudiante estudiante1 = new Estudiante("Fabian", 42, "OXO09D");
         estudiante1.mostrarInformacion();
 
-        Estudiante estudiante2 = new Estudiante("Moises", 18, "M22376");
+        Estudiante estudiante2 = new Estudiante("Moises", 54, "POE434");
         estudiante2.mostrarInformacion(); 
     }
 }

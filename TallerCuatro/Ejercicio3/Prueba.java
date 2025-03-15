@@ -5,7 +5,6 @@ public class Prueba {
         Cliente cliente = new Cliente("David");
 
         // Intentar acceder directamente a la propiedad privada
-        
          System.out.println(cliente.nombre); // Error: nombre tiene acceso privado en Cliente
     }
 }

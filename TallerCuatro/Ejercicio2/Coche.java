@@ -7,8 +7,8 @@ public class Coche {
 
     // Constructor por defecto
     public Coche() {
-        this.marca = "NN"; 
-        this.modelo = "NN";
+        this.marca = "Desconocida"; 
+        this.modelo = "Desconocido";
         this.velocidadMaxima = 0;   
     }
 
@@ -54,13 +54,13 @@ public class Coche {
         if (incremento > 0) {
             this.velocidadMaxima += incremento; 
         } else {
-            System.out.println("El incremento debe ser mayor que cero.");
+            System.out.println("El incremento debe ser mayor que cero");
         }
     }
 
     // Método toString() para mostrar los detalles del coche
     @Override
     public String toString() {
-        return "Coche [marca=" + marca + ", modelo=" + modelo + ", velocidadMaxima=" + velocidadMaxima + "]";
+        return "Coche [marca =" + marca + ", modelo =" + modelo + ", velocidadMaxima =" + velocidadMaxima + "]";
     }
 }

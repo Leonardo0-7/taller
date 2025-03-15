@@ -3,12 +3,12 @@ package TallerDiez.Ejercicio2;
 public class Pato implements Volador, Nadador { 
     @Override
     public void volar() { 
-        System.out.println("Estoy volando."); 
+        System.out.println("Estoy volando"); 
     }
 
     @Override
     public void nadar() { 
-        System.out.println("Estoy nadando.");
+        System.out.println("Estoy nadando");
     }
 }
 

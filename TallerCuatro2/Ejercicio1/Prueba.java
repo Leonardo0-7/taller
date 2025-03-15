@@ -4,7 +4,7 @@ package TallerCuatro2.Ejercicio1;
 public class Prueba {
     public static void main(String[] args) {
         
-        Empleado empleado1 = new Empleado("Pepito Perez", 7000);
+        Empleado empleado1 = new Empleado("Olga Salgao", 52700);
 
         
         System.out.println("Nombre: " + empleado1.nombre);

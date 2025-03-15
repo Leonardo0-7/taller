@@ -15,6 +15,6 @@ public class Coche extends Vehiculo {
     @Override
     public void mostrarInformacion() {
         super.mostrarInformacion(); 
-        System.out.println("Número de Puertas: " + numeroDePuertas); 
+        System.out.println("Numero de Puertas: " + numeroDePuertas); 
     }
 }

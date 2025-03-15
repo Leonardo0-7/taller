@@ -10,7 +10,7 @@ class Base {
 
 class Derivada extends Base {
     public void mostrarAtributoPrivado() {
-        // Acceder al atributo privado a través del método accesor
+        // Acceder al atributo privado a traves del método accesor
         System.out.println("Atributo Privado: " + getAtributoPrivado());
     }
 }

@@ -8,7 +8,7 @@ class Persona {
         this.nombre = nombre;
     }
 
-    // Metdo de instancia que usa this correctamente
+    // Metodo de instancia que usa this correctamente
     public void mostrarNombre() {
         System.out.println("Nombre: " + this.nombre);
     }
