@@ -5,6 +5,7 @@ public class Empleado {
     
    public String nombre;
    private double salario;
+   
    public Empleado(String nombre, double salario) {
         this.nombre = nombre;
         setSalario(salario);
