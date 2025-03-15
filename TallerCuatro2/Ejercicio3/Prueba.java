@@ -17,6 +17,6 @@ public class Prueba {
         System.out.println("Division de 96 y 3: " + division);
 
         double divisionPorCero = utilidades.dividir(3, 0);
-        System.out.println("Division de 10 y 0: " + divisionPorCero); 
+        System.out.println("Division de 3 y 0: " + divisionPorCero); 
     }
 }
