@@ -1,0 +1,23 @@
+package TallerDos.Ejercicio3;
+
+class Persona {
+    private String nombre;
+
+    // Constructor
+    public Persona(String nombre) {
+        this.nombre = nombre;
+    }
+
+    // Metdo de instancia que usa this correctamente
+    public void mostrarNombre() {
+        System.out.println("Nombre: " + this.nombre);
+    }
+}
+
+// Clase de prueba
+class PruebaPersona {
+    public static void main(String[] args) {
+        Persona p = new Persona("Fran");
+        p.mostrarNombre(); // Asi se debe usar
+    }
+}
